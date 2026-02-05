@@ -51,6 +51,35 @@
 # print(digitize("sampath"))
 
 
-def digitize(n):
-    return list(map(int, str(n))).reverse
-digitize(35231)
+# def digitize(n):
+#     return list(map(int, str(n))).reverse
+# prindigitize(35231)
+
+# def double_integer(i):
+#     print (i*2 if i>=0 else None)
+# double_integer(-10)
+
+# def double_integer(i):
+#     print (i*2)
+# double_integer(-10)
+
+# def lovefunc( flower1, flower2 ):
+#     if flower1 % 2 !=0 & flower2 %2 ==0:
+#          print(True)
+#     else:
+#         print(False)
+# lovefunc(0,1)
+
+# def invert(lst):
+#     for i in lst:
+#         lst.append(-i)
+#         print(lst)
+# lst=[1,2,3,4,5]
+# invert(lst)
+
+def count_sheep(n):
+    if n==0:
+        return ""
+    elif n in range(n+1,start=1):
+        print(f"{n} sheep...")
+count_sheep(5)
